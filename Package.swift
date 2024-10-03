@@ -21,10 +21,7 @@ let package = Package(
                 .product(name: "OpenAPIRuntime", package: "swift-openapi-runtime"),
             ],
             resources: [],
-            swiftSettings: [],
-            plugins: [
-                .plugin(name: "OpenAPIGenerator", package: "swift-openapi-generator"),
-            ]
+            swiftSettings: []
         ),
         .testTarget(
             name: "BangumiPublicSwiftClientTests",

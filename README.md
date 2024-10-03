@@ -11,3 +11,9 @@ curl -Lo Sources/BangumiPublicSwiftClient/openapi.yaml https://github.com/bangum
 ```shell
 swift package plugin generate-code-from-openapi
 ```
+
+### test
+
+```shell
+swift test
+```
